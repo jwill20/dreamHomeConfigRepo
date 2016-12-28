@@ -1,3 +1,4 @@
 dhDatabaseIp: "169.45.196.58"
 dhDatabasePort: 27017
 refreshProperty: "jman"
+eureka.client.serviceUrl.defaultZone: "http://localhost:8011/eureka"
