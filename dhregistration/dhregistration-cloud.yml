@@ -7,5 +7,5 @@ eureka:
  instance:
     preferIpAddress: true
      hostname: ${CF_INSTANCE_IP:localhost}
-#    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port:8761}}}
-     nonSecurePort: 8080 
+     nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port:8761}}}
+#     nonSecurePort: 8080 
