@@ -6,10 +6,5 @@ eureka:
    defaultZone: http://dheurekaserver.cfapps.io/eureka/
  instance:
     preferIpAddress: true
-#    hostname: ${CF_INSTANCE_IP:localhost}
-#    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port:8761}}}
-#    nonSecurePort: 8080 
      hostname: ${vcap.application.uris[0]}
      nonSecurePort: 8080
-#CF_INSTANCE_IP" : "10.10.148.56",
-#    "CF_INSTANCE_PORT" : "60036",
