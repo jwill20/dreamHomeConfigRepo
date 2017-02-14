@@ -1,5 +1,5 @@
-dhDatabaseIp: "158.85.248.111"
-dhDatabasePort: 8888
+dhDatabaseIp: "111.11.111.111"
+dhDatabasePort: 1111
 eureka:
  client:
   serviceUrl:

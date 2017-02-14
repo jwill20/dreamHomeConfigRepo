@@ -1,10 +1,8 @@
-dhDatabaseIp: "158.85.248.111"
-dhDatabasePort: 8888
+dhDatabaseIp: "111.11.111.111"
+dhDatabasePort: 1111
 eureka:
  client:
   serviceUrl:
    defaultZone: http://dheurekaserver.cfapps.io/eureka/
  instance:
     preferIpAddress: true
-    hostname: ${CF_INSTANCE_IP:localhost}
-    nonSecurePort: ${CF_INSTANCE_PORT:${PORT:${server.port:8761}}}
