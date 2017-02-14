@@ -1,5 +1,10 @@
-dhDatabaseIp: "111.11.111.111"
-dhDatabasePort: 1111
+dhDatabaseIp: "000.00.000.000"
+dhDatabasePort: 0000
+dhDatabaseUser: "00000000"
+dhDatabaseDB: "00000000"
+dhDatabaseCredentials: "00000000"
+dhDatabaseCounterCollection: "00000000"
+dhDatabaseNotificationCollection: "00000000"
 eureka:
  client:
   serviceUrl:
